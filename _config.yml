@@ -1,6 +1,3 @@
-title: GrandmaPainting
-description: Painting sessions, artwork and guest bookings
-
-url: "https://danbanan02.github.io/Paint_with_grandma.github.io"
-"
-baseurl: ""
+theme: jekyll-theme-minimal
+title: Octocat's homepage
+description: Bookmark this to keep an eye on my project updates!
