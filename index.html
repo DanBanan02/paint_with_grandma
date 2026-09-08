@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <!-- Custom font-style -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&family=Rubik+Dirt&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+
+    <!-- Header -->
+    <header>
+
+        <!-- ============================================================== -->
+
+        <!-- Top Section -->
+        <section id="TopHeaderSection">
+
+
+            <div class="TopContainer">
+                <!-- Top Left Buttons -->
+                <div id="TopLeftButtons">
+
+
+                    <!--  <button class="TopLeftBtn" id="ButtonMembers">Members <img src="/IconList/Members.png" alt="Members" width="15" height="15"></button> -->
+
+                    <!-- Members Button -->
+                    <button class="TopLeftBtn" id="ButtonMembers">
+                        Members
+                        <img src="/IconList/Members.png" alt="Members" width="15" height="15">
+                    </button>
+
+                    <!-- Members List -->
+                    <div id="MembersList">
+                        <p10>List of Members:</p10>
+                        <div id="ListofNames">
+                            <pName>Name&nbsp;&nbsp; -&nbsp;&nbsp;&nbsp; #ID</pName>
+                            <p>Kentis -&nbsp;&nbsp;&nbsp; #01</p>
+                            <p>Stian&nbsp;&nbsp;  -&nbsp;&nbsp;&nbsp; #02</p>
+                            <p>Dan&nbsp;&nbsp;&nbsp;    -&nbsp;&nbsp;&nbsp; #03</p>
+                            <p>Inge&nbsp;&nbsp;&nbsp;   -&nbsp;&nbsp;&nbsp; #04</p>
+                            <p>Tor&nbsp;&nbsp;&nbsp;&nbsp;    -&nbsp;&nbsp;&nbsp; #05</p>
+                        </div>
+
+                    </div>
+
+                    <!-- <button class="TopLeftBtn" id="ButtonBookTicket">Book a Ticket <img src="/IconList/AskQuestion.png" alt="Bticket" width="15" height="15"></button> -->
+                </div>
+
+
+                <!-- Top Right Buttons -->
+                <div id="TopRightButtons">
+
+                    <!-- Link -> Home -->
+                    <a id="Home_button" href="#Home_Link">
+                        <button class="TopLeftBtn" id="ButtonHome">Home <img src="/IconList/HomePage.png" alt="Home" width="15" height="15"></button>
+                    </a>
+
+                    <!-- Link -> Bird -->
+                    <a id="Bird_button" href="#Bird_Link">
+                        <button class="TopRightBtn" id="ButtonImage1">Bird&nbsp; <img src="/IconList/ImageButton.png" alt="Image1" width="15" height="15"></button>
+                    </a>
+
+                    <!-- Link -> Frog -->
+                    <a id="Frog_button" href="#Frog_Link">  
+                        <button class="TopRightBtn" id="ButtonImage2">Frog <img src="/IconList/ImageButton.png" alt="Image2" width="15" height="15"></button>
+                    </a>
+
+                    <!-- Link -> Fox -->
+                    <a id="Fox_button" href="#Fox_Link">
+                        <button class="TopRightBtn" id="ButtonImage3">Fox&nbsp; <img src="/IconList/ImageButton.png" alt="Image3" width="15" height="15"></button>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ============================================================== -->
+
+        <!-- Second top section -->
+        <section id="SecondTopHeaderSection">
+            <div>
+                <h1 id="Home_Link" id="MainTitle">Welcome to Craftvilla</h1>
+            </div>
+        </section>
+    </header>
+
+
+    <!-- Main Content -->
+    <body>
+
+        <div class="BookingButtonMain">
+            <!-- Open Booking Button -->
+            <button id="OpenBookingBtn" type="button">
+                Book a Ticket
+            </button>
+
+            <!-- Booking Pop Up Window -->
+            <dialog id="BookingPopup">
+
+                <!-- Booking Pop Up Title -->
+                <h2>Select a Date</h2>
+
+                <!-- Calendar -->
+                <input type="date" id="BookingDate">
+
+                <br>
+                <br>
+
+                <!-- Close Booking Button -->
+                <button id="CloseBookingBtn" type="button">
+                    Close
+                </button>
+
+            </dialog>
+        </div>
+
+
+        <!-- ============================================================== -->
+
+        <!-- Top Body Section -->
+        <section id="TopBodySection">
+
+            <!-- Top Body Article -->
+            <div class="TopBodyArticle">
+
+                <!-- Article for Image 1 -->
+                <div>
+                    <article class="ArticleImages" id="AImage1">LoveBirds</article>
+                    <article>Pris: kr 300,-</article>
+                </div>
+
+                <!-- Article for Image 2 -->
+                <div>
+                    <article class="ArticleImages" id="AImage2">HidingFrog</article>
+                    <article>Pris: kr 400,-</article>
+                </div>
+
+                <!-- Article for Image 3 -->
+                <div>
+                    <article class="ArticleImages" id="AImage3">FlameDuo</article>
+                    <article>Pris: kr 200,-</article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================== -->
+
+        <!-- Image Section -->
+        <section class="TopBodyImageSection">
+            <div class="TopBodyImageContainer">
+                <!-- Image 1 -->
+                <div><img id="TopBImg1" src="/Images/Gallery/CanvasBird.jpg" alt="CanvasBird"></div>
+
+                <!-- Image 2 -->
+                <div><img id="TopBImg2" src="/Images/Gallery/FrogMosaic.jpg" alt="FrogMosaic"></div>
+
+                <!-- Image 3 -->
+                <div><img id="TopBImg3" src="/Images/Gallery/WaterColorFox.jpg" alt="WaterColorFox"></div>
+            </div>
+        </section>
+
+        <!-- ============================================================== -->
+
+        <section class="ButtonCartMainSection">
+            <div class="ButtonCartMain">
+
+                <!-- Button > purchase Image 1 -->
+                <div Class="ButtonCart" id="ButtonCart1">
+                    <button id="BtnCart1">
+                        <img src="/IconList/ShopingCart.png" alt="Shoping1" width="15" height="15">Buy
+                    </button>
+                </div>
+
+                <!-- Button > purchase Image 2 -->
+                <div Class="ButtonCart" id="ButtonCart2">
+                    <button id="BtnCart2">
+                        <img src="/IconList/ShopingCart.png" alt="Shoping2" width="15" height="15">Buy
+                    </button>
+                </div>
+
+                <!-- Button > purchase Image 3 -->
+                <div Class="ButtonCart" id="ButtonCart3">
+                    <button id="BtnCart3">
+                        <img src="/IconList/ShopingCart.png" alt="Shoping3" width="15" height="15">Buy
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <br>
+
+        <!-- Image Article Main -->
+        <div class="ImgArticleContainer">
+
+            <!-- Image Article 1 -->
+            <div class="ImageArticle" id="ImgArticle1">
+                <article>
+                    Two gentle birds rest among the quiet forest leaves.
+                    Their soft blue feathers blend beautifully with the peaceful scenery.
+                    Together, they share a calm moment beneath the winding branches.
+                    The surrounding flowers and greenery bring warmth and life to the scene.
+                    A simple picture of companionship, harmony, and love in nature.
+                </article>
+            </div>
+
+            <!-- Image Article 2 -->
+            <div class="ImageArticle" id="ImgArticle2">
+                <article>
+                    A curious frog peeks quietly through the dense forest plants.
+                    Its earthy colors blend naturally with the leaves and branches around it.
+                    Bright flowers and tiny details make the scene feel lively and mysterious.
+                    The mosaic-like texture gives the artwork a rich, handcrafted appearance.
+                    A playful image of camouflage, curiosity, and hidden beauty in nature.
+                </article>
+            </div>
+
+            <!-- Image Article 3 -->
+            <div class="ImageArticle" id="ImgArticle3">
+                <article>
+                    Two gentle foxes share a quiet moment, touching noses with affection.
+                    Their warm, flame-like colors give the artwork a soft and comforting glow.
+                    The simple composition keeps all attention on their peaceful connection.
+                    Delicate brushstrokes create a dreamy, tender feeling between the pair.
+                    A sweet image of closeness, trust, and companionship.
+                </article>
+            </div>
+
+        </div>
+
+        </div>
+        </section>
+
+        <!-- ============================================================== -->
+
+        <!-- Currently Not in Use! -->
+        <!-- Info about Craftsvilla -->
+        <!-- <section class="TopBottomSection">
+        <article id="CraftArticle">About Craftsvilla</article>
+        </section> -->
+
+
+        <br><br><br><br><br><br>
+        <h1 id="Bird_Link" class="LoveBirdsTitle">LoveBirds</h1>
+        <div id="LoveBirdsMain">
+            <img id="LoveBirdsImg" src="/Images/Gallery/CanvasBird.jpg" alt="LoveBirds">
+            <article id="LoveBirdsArticle">
+
+                <br>
+                <!-- Article Made by AI -->
+                Two small birds sit quietly together on a branch surrounded by soft leaves,
+                flowers, and natural colors. Their blue and earthy feathers blend into the background,
+                making the whole scene feel calm and balanced. The birds seem comfortable beside each other,
+                as if they have found a peaceful place away from everything else.
+                The branches curve around them while the plants fill the space with different shapes and textures.
+                The picture has a soft, painted appearance that makes it feel slightly dreamy. The colors are not too bright, which 
+                gives the artwork a relaxed and natural look. Shades of blue, green, brown, and cream work together across the image.
+                Small details in the leaves and feathers make the picture more interesting the longer you look at it.
+                One bird appears to be looking forward while the other stays close beside it. They do not need to be doing
+                anything dramatic for the image to feel interesting. Their position alone creates the feeling that they belong together.
+                The title LoveBirds fits the image because the two birds seem connected and comfortable in the same space.
+                Around the birds, the plants create a small hidden world. Leaves overlap one another, branches twist through the background,
+                and tiny flowers add extra detail. The background feels full without taking attention away from the birds.
+                Everything seems to lead the viewer’s eyes back toward the center of the picture.
+                The artwork could represent friendship, companionship, teamwork, or simply two animals enjoying the same quiet place.
+                It can also be seen as a simple moment in nature with no deeper meaning at all. Sometimes the smallest scenes are the most
+                enjoyable because there is no action or noise, just a peaceful setting.
+                The birds' feathers have different tones that give them character. Some areas appear darker while others are lighter,
+                creating a gentle contrast. Their small size compared with the plants makes the environment feel larger around them.
+                It almost looks like they are hidden inside their own little section of the forest.
+                The curved shape around the picture helps frame the birds and makes them stand out from the surrounding space.
+                It gives the artwork a finished, decorative look similar to something that could be placed on a wall, greeting card, poster, or book cover. The natural theme makes it easy to fit into many different styles.
+                There is something simple about two birds sitting next to each other that makes the scene easy to understand. You do not need a long story to explain what is happening. They are simply there, sharing the branch and watching the world around them.
+                The picture also has many small areas that could easily be missed at first glance. Different leaf shapes, thin branches, patches of color, and small flowers all help build the environment. These details stop the background from looking empty while still keeping the birds as the main focus.
+                Overall, LoveBirds is a quiet nature-themed artwork built around two birds sharing the same space. It combines soft colors, natural shapes, detailed plants, and a simple central subject. Whether it is viewed as a picture about companionship or just a decorative image of birds, it creates a calm and pleasant scene that is easy to look at.</article>
+        </div>
+
+        <br><br><br><br>
+        <h1 id="Frog_Link" class="HidingFrogTitle">HidingFrog</h1>
+        <div class="HidingFrogMain">
+            <img id="HidingFrogImg" src="/Images/Gallery/FrogMosaic.jpg" alt="HidingFrog">
+            <article id="HidingFrogArticle">
+
+                <br>
+                <!-- Article Made by AI -->
+                A small frog hides quietly among a busy mix of leaves, branches, flowers, and natural shapes. Its colors blend so well with the surroundings that it can take a moment to notice where the frog actually is. That hidden effect makes the picture more interesting because the viewer has to look closely instead of understanding everything right away.
+                The frog sits calmly in the middle of the scene, surrounded by different shades of green, brown, red, and orange. These colors make the artwork feel full of life while still keeping a natural look. The frog itself has earthy tones that help it disappear into the background, almost like it is using the environment as camouflage.
+                The picture has a detailed, mosaic-like appearance that gives it a handmade feeling. Small shapes and textures cover the scene, creating a lot to look at. Every section of the image seems to contain something different, whether it is a leaf, a flower, a branch, or another small natural detail.
+                One of the most interesting parts of HidingFrog is how the frog does not immediately stand out. Instead of being placed against a simple background, it becomes part of the environment. This makes the image feel more like a hidden-object scene, where the viewer has to search through the details.
+                The plants around the frog create a thick and crowded setting. Leaves overlap each other, branches cross through the picture, and bright flowers add small bursts of color. The background feels almost like a miniature jungle, full of different textures and patterns.
+                The frog's eyes make it look alert, even though the rest of its body stays still. It gives the impression that the frog is watching everything around it while trying not to be noticed. This adds a little personality to the image and makes the frog feel more alive.
+                The title HidingFrog fits the artwork because hiding is one of the main things happening in the scene. The frog is there, but it is not placed in an obvious way. The viewer has to focus and separate the frog from the plants around it.
+                The artwork can be seen as playful because of this hidden effect. It feels almost like a small visual challenge. Someone looking at it for the first time might spend a few seconds trying to find the frog before noticing its face and body.
+                The many different colors and shapes also keep the image from looking empty. Even areas far away from the frog contain small details that help build the scene. This gives the artwork a layered appearance, where the longer you look, the more you notice.
+                There is also a strong connection between the frog and its environment. Frogs naturally live around plants, damp areas, and dense vegetation, so the setting feels appropriate. The artwork uses this idea to make the frog look like it belongs exactly where it is.
+                The image does not need a dramatic action or large subject to be interesting. The main idea is simple: a frog sitting quietly while blending into the plants around it. That simplicity works well because the detailed background does most of the visual work.
+                Overall, HidingFrog is a colorful and detailed nature-themed artwork built around camouflage and observation. It combines a hidden animal, layered plants, bright flowers, and many small textures into one busy scene. The frog may be the main subject, but the surrounding environment is just as important in making the picture enjoyable to look at.
+            </div>
+
+
+            <br><br><br><br>
+            <h1 id="Fox_Link" class="FlameDuoTitle">FlameDuo</h1>
+            <div class="FlameDuoMain">
+                <img id="FlameDuoImg" src="/Images/Gallery/WaterColorFox.jpg" alt="FlameDuo">
+                <article id="FlameDuoArticle">
+
+                    <br>
+                    <!-- Article Made by AI -->
+                    Two foxes stand close together, creating a simple scene that immediately focuses on their connection. Their noses nearly touch, making the moment feel calm and natural. The image does not need a busy background because the two foxes already give the picture enough character and interest.
+                    The warm orange and red colors make the foxes stand out strongly. Their fur almost looks like small flames, which fits the title FlameDuo very well. The lighter areas around their faces and bodies add contrast and help define their shapes.
+                    The watercolor style gives the artwork a soft and slightly unfinished appearance. Instead of sharp outlines, the colors blend into each other, making the image feel more artistic and relaxed. This also makes the foxes look more natural and expressive.
+                    One of the main things that makes the image interesting is how close the two foxes are. Their position makes it look like they are greeting each other, checking on each other, or simply sharing a quiet moment. That small interaction gives the picture a lot of personality.
+                    The simple background keeps all attention on the foxes. There are no extra objects or distractions competing with them, so the viewer naturally focuses on their faces, posture, and colors. This makes the composition clean and easy to understand.
+                    The title FlameDuo works because both foxes have bright, fiery tones. The word “Flame” matches their orange fur, while “Duo” represents the pair standing together. It is a short title, but it fits the image clearly.
+                    The foxes also have slightly different poses, which helps the picture feel balanced instead of identical. Their bodies lean toward each other while their tails and legs create movement around the lower part of the image.
+                    Even though the artwork is simple, there are still many small details in the brushwork. Different shades of orange, red, cream, and brown appear throughout the fur. These changes in color help give the foxes more depth and prevent them from looking flat.
+                    The picture can represent companionship, teamwork, friendship, or simply two animals interacting in nature. It does not need to have one specific meaning. Different people can look at the image and understand it in their own way.
+                    The soft brushstrokes around the edges make the foxes seem almost like they are fading into the paper. This is common in watercolor artwork and gives the image a handmade and artistic feeling.
+                    The warm colors also make the picture feel energetic without being too intense. Orange and red naturally draw attention, but because they are mixed with softer tones, the image still feels balanced.
+                    There is a nice contrast between the strong colors of the foxes and the plain background. This makes their shapes easier to see and gives the artwork a clean presentation. It would work well as a poster, print, card, or decorative image.
+                    The foxes' faces are one of the strongest parts of the scene. Because they are looking toward each other, the viewer's attention is naturally drawn to the middle of the image. This creates a clear focal point without needing any extra effects.
+                    Overall, FlameDuo is a warm and simple artwork centered around two foxes sharing the same moment. The watercolor style, fiery colors, clean background, and close positioning of the animals all work together to create an image that is easy to understand but still interesting to look at.
+                </div>
+    </body>
+
+
+    <!-- Footer -->
+    <footer>
+        <!-- ============================================================== -->
+
+        <section class="BottomMainSection">
+
+            <!-- Bottom Section Content -->
+            <div class="BottomMainContent">
+
+                <div class="BottomSec" id="ButtonInfo">
+                    <!-- Info about Craftsvilla page -->
+                    <button class="BottomSec" id="CraftArticle"><img src="/IconList/CraftvillaInfo.png" alt="CraftvillaFeedBack" width="15" height="15">Craftvilla</button>
+
+                    <!-- Craftvilla Information -->
+                    <div id="CraftVillaInfo">
+                        <h2>Craftvilla Info</h2>
+                        <p>
+                            Craftvilla is a welcoming place where guests can book painting sessions and spend some time being creative in a relaxed setting. The sessions are designed to be easy to join, whether someone has painted before or is trying it for the first time. Guests can learn basic techniques, experiment with different colors, and work on their own piece while getting guidance along the way.
+                            The goal is not to make everything perfect, but to enjoy the process and have a good time. Painting sessions can be a nice activity for friends, couples, small groups, or anyone who wants to do something different for a few hours. Each session gives guests the chance to slow down, focus on something creative, and leave with a finished painting they can take home.
+                            Craftvilla can also be a good choice for birthdays, casual group activities, or small celebrations. Guests can book a session in advance, choose a suitable time, and enjoy a simple experience without needing to bring much with them. The atmosphere is meant to feel comfortable and informal, so people can learn, chat, and enjoy painting at their own pace.
+                            Alongside the painting sessions, the page can also be used to explore different artworks, see examples for inspiration, and get an idea of what kind of pieces can be created during a visit. The main idea is to make painting feel accessible, enjoyable, and easy to try, even for people who do not normally think of themselves as artistic.
+                        </p>
+                    </div>
+
+                    <!-- List of Feedbacks -->
+                    <button class="BottomSec" id="ButtonFeedbacks">
+                        <img src="/IconList/FeedBackList.png" alt="FeedBack" width="15" height="15">
+                        Feedback
+                    </button>
+
+                    <!-- Feedback Information -->
+                    <div id="FeedbackInfo">
+
+                        <!-- Feedback Title -->
+                        <h3>Guest Feedback</h3>
+
+                        <!-- Feedback 1 -->
+                        <div class="FeedbackReview">
+                            <strong>Kentis</strong>
+                            <p>
+                                Really enjoyed the painting session. The atmosphere was relaxed
+                                and the instructions were easy to follow. I would definitely come again.
+                            </p>
+                        </div>
+
+                        <!-- Feedback 2 -->
+                        <div class="FeedbackReview">
+                            <strong>Stian</strong>
+                            <p>
+                                The session was fun, but I felt like we spent a little too much
+                                time waiting for everyone to catch up. Still had a good evening.
+                            </p>
+                        </div>
+
+                        <!-- Feedback 3 -->
+                        <div class="FeedbackReview">
+                            <strong>Dan</strong>
+                            <p>
+                                I had never painted before and was expecting mine to look terrible,
+                                but it actually turned out pretty good. The instructor was very helpful.
+                            </p>
+                        </div>
+
+                        <!-- Feedback 4 -->
+                        <div class="FeedbackReview">
+                            <strong>Inge</strong>
+                            <p>
+                                Nice place and friendly people, although I think there should have
+                                been more brushes available. I had to wait a few times for the size I wanted.
+                            </p>
+                        </div>
+
+                        <!-- Feedback 5 -->
+                        <div class="FeedbackReview">
+                            <strong>Tor</strong>
+                            <p>
+                                Came here with two friends and we had a great time. None of us are
+                                particularly good at painting, but that honestly made it even more fun.
+                            </p>
+                        </div>
+
+                        <!-- Feedback 6 -->
+                        <div class="FeedbackReview">
+                            <strong>Alex</strong>
+                            <p>
+                                The session started a little later than expected and the room was
+                                quite busy. The actual painting part was enjoyable once we got started.
+                            </p>
+                        </div>
+
+                        <!-- Feedback 7 -->
+                        <div class="FeedbackReview">
+                            <strong>Mia</strong>
+                            <p>
+                                Really liked being able to work at my own pace instead of feeling
+                                rushed. I brought my painting home and actually put it on my wall.
+                            </p>
+                        </div>
+
+                        <!-- Feedback 8 -->
+                        <div class="FeedbackReview">
+                            <strong>Thomas</strong>
+                            <p>
+                                Good experience overall. I just wish there had been a little more
+                                explanation about mixing colors before we started painting.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>        
+
+                <div class="BottomSec" id="ButtonContact">
+                    <!-- Contact Information -->
+                    <button class="BottomSec">Contact me</button>
+                </div>
+                <!-- ============================================================== -->
+
+
+    </footer>
+</html>
