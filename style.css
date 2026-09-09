@@ -69,7 +69,8 @@ h1#Home_Link
   border: 2.5px;           
   padding: 0;             
   cursor: pointer;         
-  outline: none;   
+  outline: none;
+  margin: 3rem;
 }
 
 .TopLeftBtn:hover
